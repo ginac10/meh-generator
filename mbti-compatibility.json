@@ -1,0 +1,33 @@
+[
+    {   "type": ["infp", "enfp", "infj", "intj", "entj", "intp", "entp"],
+        "compatible": ["infp", "enfp", "infj", "enfj", "intj", "entj", "intp", "entp"]
+    },
+    {   "type": ["enfj"],
+        "compatible": ["infp", "enfp", "infj", "enfj", "intj", "entj", "intp", "entp", "isfp"]
+    },
+    {
+        "type": ["isfp"],
+        "compatible": ["esfj", "estj", "enfj"]
+    },
+    {
+        "type": ["isfp"],
+        "compatible": ["esfj", "estj"]
+    },
+    {
+        "type": ["esfp", "estp"],
+        "compatible": ["isfj", "istj"]
+    },
+    {
+        "type": ["isfj", "istj"],
+        "compatible": ["isfj", "esfj", "istj", "estj", "esfp", "estp"]
+    
+    },
+    {
+        "type": ["esfj"],
+        "compatible": ["isfj", "esfj", "istj", "estj", "isfp", "istp"]
+    },
+    {
+        "type": ["estj"],
+        "compatible": ["isfj", "esfj", "istj", "estj", "intp", "isfp", "istp"]
+    }
+]
