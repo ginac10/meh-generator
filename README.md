@@ -1,7 +1,7 @@
 a group generator i created as internal VP of [Cal Hacks](https://www.calhacks.io/) to create better MEH* groups. randomly pairs people based on mbti compatibility, team, active status, and other factors to encourage people who don’t normally interact (but have a high possibility of vibing) to hang out :)
 
 # details
-1. to use, export google sheets as json (you will need to add this [script](https://thenewstack.io/how-to-convert-google-spreadsheet-to-json-formatted-text/)). my columns were name, status, team, mbti, and paired (people that have alr been matched), but you can easily add more features.
+1. to use, export google sheets as json (you will need to add this [script](https://thenewstack.io/how-to-convert-google-spreadsheet-to-json-formatted-text/)). my [columns](https://docs.google.com/spreadsheets/d/1EH3twITynyBn7iKdx6lSDwJ_vP0Xca6lvthfV-d7SuM/edit#gid=2029338544) were name, status, team, mbti, and paired (people that have alr been matched), but you can easily add more features.
 2. the generator will randomly pick a person based on the following:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i. haven’t been grouped before\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ii. preferably people in different teams (although it's ok to pair people together with the same teams if it runs out of pairings)\
