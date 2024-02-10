@@ -4,10 +4,10 @@ a group generator i created as internal VP of Cal Hacks. randomly pairs people b
 # details
 1. to use, export google sheets as json (you will need to add this [script](https://thenewstack.io/how-to-convert-google-spreadsheet-to-json-formatted-text/)). my columns were name, status, team, mbti, and paired (people that have alr been matched), but you can easily add more features.
 2. the generator will randomly pick a person based on the following:
-  1. 1. haven’t been grouped before
-  2. preferably people in different teams (although it's ok to pair people together with the same teams if it runs out of pairings)
-  3. preferably people with compatible* mbtis (i created a simplified compatibility table based on the [myers briggs type compatibility chart](https://www.dreamsaroundtheworld.com/wp-content/uploads/2017/01/Myers_Briggs_Type_Compatibility_Chart.pdf), where ”compatible” = dark green/blue)
-  4. preferably people with different statuses (active, inactive, new member)
-  5. once a person is paired with someone for that week, they cannot be paired with someone else
+  i. haven’t been grouped before
+  ii. preferably people in different teams (although it's ok to pair people together with the same teams if it runs out of pairings)
+  iii. preferably people with compatible* mbtis (i created a simplified compatibility table based on the [myers briggs type compatibility chart](https://www.dreamsaroundtheworld.com/wp-content/uploads/2017/01/Myers_Briggs_Type_Compatibility_Chart.pdf), where ”compatible” = dark green/blue)
+  iv. preferably people with different statuses (active, inactive, new member)
+  v. once a person is paired with someone for that week, they cannot be paired with someone else
 
 you can easily adjust this to match people with "incompatible" mbti types as well by changing a single bool :)
